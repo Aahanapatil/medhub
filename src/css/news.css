@@ -1,0 +1,208 @@
+.news-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 2rem;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.news-header h1 {
+    margin: 0;
+    color: #007bb5;
+}
+
+.news-add-btn {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.news-add-btn:hover {
+    background: #388e3c;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.news-item {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.2rem 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    position: relative;
+}
+
+.news-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #005580;
+    margin-bottom: 0.5rem;
+}
+
+.news-content {
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.news-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.news-edit-btn,
+.news-delete-btn {
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.news-edit-btn {
+    background: #2196F3;
+    color: #fff;
+}
+.news-edit-btn:hover {
+    background: #1565c0;
+}
+
+.news-delete-btn {
+    background: #e53935;
+    color: #fff;
+}
+.news-delete-btn:hover {
+    background: #b71c1c;
+}
+
+.news-error {
+    background: #fee2e2;
+    color: #c62828;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.news-loading {
+    text-align: center;
+    color: #666;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+/* Modal form styles */
+.news-form-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.news-form-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.news-form-box h2 {
+    margin-bottom: 1.2rem;
+    color: #007bb5;
+    text-align: center;
+}
+
+.news-form-box input,
+.news-form-box textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.news-form-box textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.news-form-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.news-form-actions button[type="submit"] {
+    background: #007bb5;
+    color: #fff;
+}
+.news-form-actions button[type="submit"]:hover {
+    background: #005580;
+}
+
+.news-form-actions button[type="button"] {
+    background: #e0e0e0;
+    color: #333;
+}
+.news-form-actions button[type="button"]:hover {
+    background: #bdbdbd;
+}
+
+/* Logo styles */
+.main-header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #fb0202, #f7fb06);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.hospital-logo {
+    height: 48px;
+    width: 48px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s;
+}
+
+.hospital-logo:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+}
+
+.site-title {
+    color: #eef607;
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}

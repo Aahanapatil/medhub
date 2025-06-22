@@ -1,0 +1,150 @@
+.contacts-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #2F80ED;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #666;
+}
+
+#question-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+#question-section h2 {
+    text-align: center;
+    color: #2F80ED;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #2F80ED;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1c6ed9;
+}
+
+#social-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#social-section h2 {
+    color: #2F80ED;
+    margin-bottom: 20px;
+}
+
+#social-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#social-section a {
+    color: #2F80ED;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#social-section a:hover {
+    color: #1c6ed9;
+}
+
+/* Add to contacts.css */
+.success-message {
+    background: #e6ffed;
+    color: #207544;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Logo styles */
+.main-header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #fb0202, #f7fb06);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.hospital-logo {
+    height: 48px;
+    width: 48px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s;
+}
+
+.hospital-logo:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+}
+
+.site-title {
+    color: #eef607;
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
